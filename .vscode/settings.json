@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/4d6338c0-2d77-4e51-8c2e-40be764ab017/resourceGroups/north-europe/providers/Microsoft.Web/sites/next-azure",
+    "appService.deploySubpath": "."
+}
