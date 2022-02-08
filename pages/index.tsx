@@ -14,7 +14,8 @@ const Home: NextPage = () => {
 
           <main className={styles.main}>
               <h1 className={styles.title}>Hello world</h1>
-              {new Date().toLocaleString("sv-SE")}
+              <div>{new Date().toLocaleString("sv-SE")}</div>
+              <div>{process.env.NEXT_PUBLIC_LABB}</div>
           </main>
       </div>
   );
